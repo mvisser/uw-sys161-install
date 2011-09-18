@@ -1,0 +1,11 @@
+This script will install utilities required to build and install sys161 and
+os161, and install them on your local machine. It will ask you if you want to
+add the utilities to your path, and if you want to remove the archive files
+after installation.
+
+The script will fail at any point if there are build errors. It will not
+download the archive files necessary if they still exist in the current
+working directory.
+
+This script will install the programs to a subdirectory sys161 in the current
+directory, and leave the archives extracted in the current working directory.
