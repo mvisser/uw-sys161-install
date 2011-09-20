@@ -1,9 +1,10 @@
 #!/bin/sh
 
-function try_mkdir(){
-if [ ! -d $1 ] ; then
-    mkdir $1
-fi
+try_mkdir()
+{
+    if [ ! -d $1 ] ; then
+        mkdir $1
+    fi
 }
 
 PREFIX=$PWD
